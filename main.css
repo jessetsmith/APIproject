@@ -1,0 +1,135 @@
+:root{
+    --font-one: 'Lobster Two', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 10em;
+    width: 100%;
+    background-color: white;
+    opacity: .7;
+    margin: 0;
+    padding: 0;
+    margin-left: .2rem;
+    
+    
+}
+#overlay {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-one);
+    color: black;
+    text-align: center;
+    margin-top: -.5em;
+}
+
+#sortingHatBody {
+    background-image: url(../myAPI/Assets/library-948965.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.main{
+    background-image: url(../myAPI/Assets/library-948965.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top 5%;
+    
+    
+}
+
+#hogwartsBody {
+    background-image: url(../myAPI/Assets/usj-1925191.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#sortingHatButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+    font-family: 'Lobster Two', cursive;
+     cursor: url(../myAPI/Assets/hat-3751721.png), default;
+    
+}
+
+
+
+button:hover {
+    cursor: url(../myAPI/Assets/hat-3751721.png), default;
+
+}
+
+button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    outline: black solid .5px;
+    padding: 6px 11px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    font-weight: 100;
+    border: none;
+    
+    cursor: pointer;
+    opacity: .8;
+    font-size: 15px;
+    font-family: 'Lobster Two', cursive;
+    width: 15em;
+    height: 6em;
+    
+  }
+
+  button:before {
+    content: '';
+    position: absolute;
+    border: #e1e1e1 solid .5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+}
+
+button:hover:before, button:focus:before, button:active:before {
+    top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+}
+
+button, a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+}
+
+#showHogwartsHouse {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: .5;
+    margin-top: 1rem;
+    height: 30em;
+    padding: .2em;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    align-content: center;
+    
+}
+
+#showHogwartsHouse {
+    align-content: center;
+}
+
