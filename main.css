@@ -25,13 +25,13 @@
 }
 
 #sortingHatBody {
-    background-image: url(../myAPI/Assets/library-948965.jpg);
+    background-image: url(./Assets/library-948965.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     
 }
 .main{
-    background-image: url(../myAPI/Assets/library-948965.jpg);
+    background-image: url(./Assets/library-948965.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top 5%;
@@ -40,7 +40,7 @@
 }
 
 #hogwartsBody {
-    background-image: url(../myAPI/Assets/usj-1925191.jpg);
+    background-image: url(./Assets/usj-1925191.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -50,14 +50,14 @@
     justify-content: center;
     margin-top: 12rem;
     font-family: 'Lobster Two', cursive;
-     cursor: url(../myAPI/Assets/hat-3751721.png), default;
+     cursor: url(./Assets/hat-3751721.png), default;
     
 }
 
 
 
 button:hover {
-    cursor: url(../myAPI/Assets/hat-3751721.png), default;
+    cursor: url(./Assets/hat-3751721.png), default;
 
 }
 
@@ -154,13 +154,13 @@ button, a {
     margin-top: 15%;
     margin-left: 32%;
     font-family: 'Lobster Two', cursive;
-    cursor: url(../myAPI/Assets/hat-3751721.png), default;
+    cursor: url(./Assets/hat-3751721.png), default;
     font-size: 15px;
     font-weight: 100;
 }
 
 #charactersBody {
-    background-image: url(../myAPI/Assets/harry-potter-4455042.jpg);
+    background-image: url(./Assets/harry-potter-4455042.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
