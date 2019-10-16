@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" sizes="96x96" href="../Assets/hat-3751721.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./Assets/hat-3751721.png">
     <link href="./main.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>| Your Housemates |</title>
+    <title>| Welcome to Hogwarts |</title>
 </head>
 
 <body id="charactersBody">
         <div class='header'>
                 <div id="overlay">
                     <header id="warning">
-                    <h1 id="house">Your Hogwarts Classmates</h1>
+                    <h1 id="house">Hogwarts School of Witchcraft and Wizardry</h1>
                     
                     <hr>
         
-                    <h2 id="enter"></h2>
+                    <h2 id="spell">Click to envoke the Extension Charm, and see the list of Hogwarts Residents</h2>
               
                     </header>
                 </div>
             </div> 
-           
-        <div id="showHouseMates">
-            <ul id="houseMates">
+            <button onclick="dropdownFunction()" class="dropdownButton">Capacious extremis</button>
+                <div id="dropdown" class="dropdownContents">
+                    <ul id="characters">
 
-            </ul>
-        </div>
-       
+                    </ul>
+                </div>
+                <div class="space"></div>
+            
     <script type="text/javascript" src="./characters.js"></script>
 </body>
 </html>

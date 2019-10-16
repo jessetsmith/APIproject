@@ -151,16 +151,48 @@ button, a {
     display: flex;
     align-self: center;
     justify-content: center;
-    margin-top: 15%;
-    margin-left: 32%;
+    margin-top: 6%;
+    margin-left: 30%;
     font-family: 'Lobster Two', cursive;
     cursor: url(./Assets/hat-3751721.png), default;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 100;
 }
 
 #charactersBody {
-    background-image: url(./Assets/harry-potter-4455042.jpg);
+    size: auto;
+    background-image: url(./Assets/harry-potter-2348767.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.dropdownButton {
+    display: block;
+    margin-top: 15%;
+    margin-left: 42%;
+    cursor: pointer;
+}
+
+.dropdownContents {
+        width: 17em;
+        height: 300em;
+        margin-left: 39.5%;
+        scroll-behavior: auto;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        cursor: pointer;
+}
+
+.show {display:block;}
+
+#characters {
+    font-family: var(--font-one);
+}
+
+#spell {
+    margin-top: 3%;
 }
