@@ -162,6 +162,7 @@ button, a {
 #charactersBody {
     size: auto;
     background-image: url(./Assets/harry-potter-2348767.jpg);
+    background-color: slategrey;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -181,7 +182,7 @@ button, a {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 160px;
+        min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         cursor: pointer;

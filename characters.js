@@ -23,7 +23,7 @@ fetch (url, {key: key})
     let hogwarts = json.name;
     let details = json.house;
   let hgHouse = document.createElement('li');
-  hgHouse.textContent = `${hogwarts}, ${details}`;
+  hgHouse.textContent = `${hogwarts},  ${details}`;
    //text.appendChild(hgHouse.textContent);
   ul.appendChild(hgHouse);
   })
